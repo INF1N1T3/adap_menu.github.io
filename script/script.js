@@ -1,10 +1,12 @@
 window.onload = function() {
+	
 	const menu = document.querySelector(".menu");
 	const for_menu = document.querySelector(".menu_for_phones");
 	const stripes = document.querySelectorAll(".stripe");
 	const menu_for_tablets = document.querySelectorAll(".header_bar li");
 	const menu_for_phone = document.querySelectorAll(".menu_for_phones .point");
 	console.log(menu_for_phone);
+
 	for (var i = 0; i < menu_for_phone.length; i++) {
 		menu_for_phone[i].addEventListener("click", function() {
 					console.log(window.pageYOffset);

@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: #f4d142;
+	background-color: blue;
 }
 main {
 	width: 100%;
@@ -143,7 +143,7 @@ ul li {
 @keyframes start {
 	0% {left: 0; top: 0;}
 	30% {left: 0; top: 0;}
-	100% {left: -100%; top: 0;}
+	100% {left: -120%; top: 0;}
 }
 .menu_for_phones {
 	padding:5px;
