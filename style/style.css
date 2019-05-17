@@ -34,6 +34,7 @@ main {
 	width: 100%;
 	height: 300px;
 	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
 	color: #000;
 	background-color: #fff;
 	display: flex;
@@ -63,6 +64,7 @@ main {
 		height: 300px;
 		display: flex;
 		justify-content: center;
+		font-family: 'Montserrat', sans-serif;
 		align-items: center;
 		font-size: 50px;
 		color: #000;
@@ -115,6 +117,7 @@ ul li {
 	font-size: 20px;
 	color: #000;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 .menu {
 	width: 60px;
@@ -196,4 +199,5 @@ ul li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Montserrat', sans-serif;
 }
