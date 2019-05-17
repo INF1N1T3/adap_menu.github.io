@@ -39,14 +39,14 @@ function init_2() {
 	console.log(menu_for_phone);
 	for (let i = 0; i < menu_for_tablets.length; i++) {
 		menu_for_tablets[i].addEventListener("click", function() {
-			console.log(i * 300);
-			$(window).scrollTop(i * 300);
+			console.log(i * 480);
+			$(window).scrollTop(i * 480);
 		});
 	}
 	for (let j = 0; j < menu_for_phone.length; j++) {
 		menu_for_phone[j].addEventListener("click", function() {
-			console.log(j * 600);
-			$(window).scrollTop(j * 600);
+			console.log(j * 450);
+			$(window).scrollTop(j * 450);
 		});
 	}
 }
