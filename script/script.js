@@ -1,5 +1,10 @@
 window.onload = function() {
 	
+	init_1();
+
+}
+
+function init_1() {
 	const menu = document.querySelector(".menu");
 	const for_menu = document.querySelector(".menu_for_phones");
 	const stripes = document.querySelectorAll(".stripe");
@@ -40,5 +45,4 @@ window.onload = function() {
 			}
 			open = !open;
 	});
-
 }
